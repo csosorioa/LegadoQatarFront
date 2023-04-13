@@ -1,0 +1,18 @@
+.jugador-div {
+    text-align: center;
+    background-color: #F8F2D2;
+    outline: thick double #E3D691;
+    margin: 10px;
+}
+.player-img {
+    height: 250px;
+}
+.player-link{
+    color: black;
+}
+hr {
+    border-top-color: black;
+    border-top-width: 2px;
+    margin: 2px auto 6px auto;
+    width: 150px;
+}

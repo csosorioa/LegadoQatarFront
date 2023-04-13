@@ -1,0 +1,45 @@
+.div-player-detail {
+    margin: 30px 20px;
+    width: 100%;
+}
+.flag-img-info {
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 450px;
+}
+.player-img-div {
+    padding: 10px;
+    background-color: #E3D691;
+    outline: thick double black;
+    margin-right: 50px;
+    width: min-content;
+    height: 460px;
+    float: left;
+    overflow: hidden;
+}
+.player-info-img {
+    height: 450px;
+    float: left;
+}
+.player-info-div {
+    justify-content: center;
+    height: 350px;
+    padding: 10px 10px 0px 10px;
+    font-size: 1.5rem;    
+    text-align: justify;
+}
+.player-info-div p {
+    margin: 10px;
+}
+.player-info-div h1 {
+    margin: 15px;
+    font-size: 3rem;
+}
+.player-info-div h2 {
+    margin-bottom: 10px;
+}
+.player-info-div h3 {
+    margin-bottom: 19px;
+}

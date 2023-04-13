@@ -1,0 +1,67 @@
+body {
+    background-color: #f4f4f4;
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+    padding: 0;
+    margin: 0;
+    font-family: 'League Gothic', sans-serif;
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
+}
+img {
+    height: 70px;
+}
+nav {
+    background-color: #7B1847;
+    color: #f4f4f4;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+    z-index: 100;
+}
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+.MuiButton-root {
+    font-family: 'League Gothic', sans-serif;
+}
+.div-header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto auto;
+}
+.div-title {
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 12%;
+}
+.div-items {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 45%;
+}
+.navbar {
+    transition: .3s ease-in-out;
+}
+.item-name {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 1.5rem;
+}
+.item-button {
+    width: 200px;
+}
+.logo-a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

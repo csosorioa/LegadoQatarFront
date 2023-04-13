@@ -1,0 +1,31 @@
+.pais-grupo-div {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.country-img {
+    flex-wrap: wrap;
+    height: 2rem;
+    width: 3.5rem;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+.country-name {
+    font-size: 1.5rem;
+}
+.table-group {
+    height: 1px;
+    text-align: left;
+}
+
+.link-country {
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}

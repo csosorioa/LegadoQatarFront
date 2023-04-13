@@ -1,0 +1,39 @@
+.nav-x {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    z-index: -100;
+}
+.navega {
+    color: black;
+}
+.navbar {
+    z-index: 0;
+    padding: 0;
+}
+.navega {
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.nav-link {
+    margin: auto 30px;
+}
+.logo-img-div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.flag-img {
+    flex-wrap: wrap;
+    height: 2rem;
+    width: 3.5rem;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #E3D691;
+}
+.name-h1 {
+    color: black;
+    margin: 0;
+}

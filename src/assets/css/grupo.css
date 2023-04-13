@@ -1,0 +1,22 @@
+.grupo-div {
+    align-items: center;
+    background-color: #F8F2D2;
+    box-shadow: 1px 1px 8px rgba(0,0,0,.6);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 40px;
+    outline: thick double #E3D691;
+}
+.group-name{
+    color: #731642;
+}
+table{
+    table-layout: fixed;
+}
+td{
+    width: 100%;
+    height: 50px;
+}
