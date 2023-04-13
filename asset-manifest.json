@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LegadoQatarFront/static/css/main.4a52bf07.css",
+    "main.js": "/LegadoQatarFront/static/js/main.298724ee.js",
+    "static/media/logo.png": "/LegadoQatarFront/static/media/logo.3c8c7b39cbd3ab21057f.png",
+    "static/media/revicons.eot": "/LegadoQatarFront/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/LegadoQatarFront/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/LegadoQatarFront/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/LegadoQatarFront/index.html",
+    "main.4a52bf07.css.map": "/LegadoQatarFront/static/css/main.4a52bf07.css.map",
+    "main.298724ee.js.map": "/LegadoQatarFront/static/js/main.298724ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a52bf07.css",
+    "static/js/main.298724ee.js"
+  ]
+}
