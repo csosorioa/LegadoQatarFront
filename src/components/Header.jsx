@@ -9,7 +9,7 @@ function Header() {
         <nav>
             <div className='div-header'>
                 <div className='div-title'>
-                    <Link to='/' className='logo-a'>
+                    <Link to='/LegadoQatarFront' className='logo-a'>
                         <img src={require('../assets/images/logo.png')} alt="logo"/>
                         <h1>Legado<br/>Qatar</h1>
                     </Link>

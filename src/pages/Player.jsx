@@ -1,29 +1,23 @@
-import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "../assets/css/player.css";
+import players from '../assets/json/players/prueba.js'
 
 function Player(props) {
   const locations = useLocation().pathname.split("/");
-  const [backendData, setBackendData] = useState([{}]);
-  useEffect(() => {
-    fetch(
-      "http://localhost:5000/teams/" +
-        locations[locations.length - 2] +
-        "/" +
-        locations[locations.length - 1]
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        setBackendData(data);
-      });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-  console.log(backendData);
+  var code = locations[locations.length - 1];
+  var flag = locations[locations.length - 2];
+  var id = code.split("-")[1];
+  console.log(id);
+  // eslint-disable-next-line eqeqeq
+  var jugador = players.find(x => x.id==id);
+  console.log(players);
+  console.log(jugador);
   const route =
-    "http://localhost:5000/images/" + locations[locations.length - 1] + ".webp";
+    require("../assets/images/" + locations[locations.length - 1] + ".webp");
+  const logo = require("../assets/images/" + flag + ".png")
   return (
     <div>
-      {typeof backendData.name === "undefined" ? (
+    {typeof jugador.name === "undefined" ? (
         <></>
       ) :(
     <div className="div-player-detail">
@@ -32,26 +26,24 @@ function Player(props) {
         <img
             className="flag-img-info"
             src={
-              "http://localhost:5000/images/" +
-              backendData.country.toUpperCase() +
-              ".png"
+              logo
             }
             alt="country flag"
           />
       </div>
       <div className="player-info-div">
-        <h1>{backendData.name}</h1>
+        <h1>{jugador.name}</h1>
         <div>
           
-          <h2>{backendData.team}</h2>
+          <h2>{jugador.team}</h2>
         </div>
-        <h2>{backendData.position}</h2>
-        <h3>También juega para {backendData.otherTeam}</h3>
-        <p>Nació el {backendData.birthday}</p>
-        <p>Nació en {backendData.birthplace}</p>
-        <p>- {backendData.factOne}</p>
-        <p>- {backendData.factTwo}</p>
-        <p>{backendData.history}</p>
+        <h2>{jugador.position}</h2>
+        <h3>También juega para {jugador.otherTeam}</h3>
+        <p>Nació el {jugador.birthday}</p>
+        <p>Nació en {jugador.birthplace}</p>
+        <p>- {jugador.factOne}</p>
+        <p>- {jugador.factTwo}</p>
+        <p>{jugador.history}</p>
       </div>
     </div>)}
     </div>
