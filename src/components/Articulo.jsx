@@ -3,6 +3,8 @@ import Carta from "./Carta";
 
 function Articulo(props) {
     console.log(props.articles);
+    
+    console.log(props.image);
     const articles = props.articles;
     return(
         <div className="articulo-div">
@@ -16,7 +18,7 @@ function Articulo(props) {
                     key={art.id}
                     title={art.title}
                     content={art.content}
-                    image={art.url}
+                    image={require("../assets/images/"+art.image)}
                     ruta={art.ruta}
                     
                     />

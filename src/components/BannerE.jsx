@@ -2,6 +2,7 @@ import "../assets/css/bannere.css";
 
 function BannerE(props) {
   var name = props.name;
+  var flag = require("../assets/images/"+ name + ".png")
   if(name === "Corea del Sur") {
     name = "C Sur";
   }
@@ -17,7 +18,7 @@ function BannerE(props) {
         <div className="logo-img-div">
         <img
           className="flag-img"
-          src={"http://localhost:5000/images/" + name + ".png"}
+          src={ flag}
           alt="flag"
         />
         <h1 className="name-h1" style={{color:"#ffff"}}>{props.name}</h1>

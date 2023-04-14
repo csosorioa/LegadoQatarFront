@@ -1,24 +1,15 @@
-import { useEffect, useState } from "react";
 import Articulo from "../components/Articulo";
-import '../assets/css/articles.css'    
+import '../assets/css/articles.css'  
+import articles from "../assets/json/articles.js";  
 
 function Articles() {
-    const [backendData, setBackendData] = useState([{}]);
-    useEffect(() => {
-        fetch("http://localhost:5000/articles").then(
-            response => response.json()
-        ).then(
-            data => {
-                setBackendData(data);
-            }
-        )
-    }, [])
+
     return (
         <div className="articles-div">
-            {(typeof backendData.articles === 'undefined') ? (
+            {(typeof articles === 'undefined') ? (
                 <></> 
             ): (
-                <Articulo articles={backendData.articles} />
+                <Articulo articles={articles} />
             )}
         </div>
     )

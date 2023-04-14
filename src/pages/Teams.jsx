@@ -2,17 +2,10 @@ import Grupo from "../components/Grupo";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "../assets/css/teams.css";
-import { useState, useEffect } from "react";
+import paises from "../assets/json/paises.js"
 
 function Teams() {
-  const [backendData, setBackendData] = useState([{}]);
-  useEffect(() => {
-    fetch("http://localhost:5000/teams")
-      .then((response) => response.json())
-      .then((data) => {
-        setBackendData(data);
-      });
-  }, []);
+  console.log(paises);
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -35,11 +28,11 @@ function Teams() {
 
   return (
     <div className="teams-div">
-      {typeof backendData.paises === "undefined" ? (
+      {typeof paises === "undefined" ? (
         <></>
       ) : (
         <Carousel responsive={responsive}>
-          {backendData.paises.map((i, index) => {
+          {paises.map((i, index) => {
             return (
               <Grupo key={index} group={i.group} countries={i.countries} />
             );

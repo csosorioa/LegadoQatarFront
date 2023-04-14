@@ -3,12 +3,12 @@ import "../assets/css/jugador.css";
 
 function Jugador(props) {
   const ruta = props.apellido + "-" + props.id;
-  const route = "http://localhost:5000/images/" + ruta + ".webp";
+  var play = require("../assets/images/" + ruta + ".webp");
   console.log(props.apellido);
   return (
     <div className="jugador-div">
       <Link className="player-link" to={ruta}>
-        <img className="player-img" src={route} alt="jugador" />
+        <img className="player-img" src={play} alt="jugador" />
         {typeof props.nombre === "undefined" ? (
           <h5 style={{ visibility: "hidden" }}>null</h5>
         ) : (
