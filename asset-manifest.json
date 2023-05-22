@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LegadoQatarFront/static/css/main.4a52bf07.css",
-    "main.js": "/LegadoQatarFront/static/js/main.6418f960.js",
+    "main.css": "/LegadoQatarFront/static/css/main.03e7be25.css",
+    "main.js": "/LegadoQatarFront/static/js/main.50f8f475.js",
     "static/media/fifa_final.mp4": "/LegadoQatarFront/static/media/fifa_final.3770b9eb2a017b9a97de.mp4",
     "static/media/ALVARADO-443.webp": "/LegadoQatarFront/static/media/ALVARADO-443.b407cc1d2ee5638bd464.webp",
     "static/media/COURTOIS-520.webp": "/LegadoQatarFront/static/media/COURTOIS-520.ff2f4fc4c25b992cf9fd.webp",
@@ -866,11 +866,11 @@
     "static/media/revicons.woff": "/LegadoQatarFront/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/LegadoQatarFront/index.html",
     "static/media/desktop.ini": "/LegadoQatarFront/static/media/desktop.8a9165e24440ddc7cf90.ini",
-    "main.4a52bf07.css.map": "/LegadoQatarFront/static/css/main.4a52bf07.css.map",
-    "main.6418f960.js.map": "/LegadoQatarFront/static/js/main.6418f960.js.map"
+    "main.03e7be25.css.map": "/LegadoQatarFront/static/css/main.03e7be25.css.map",
+    "main.50f8f475.js.map": "/LegadoQatarFront/static/js/main.50f8f475.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a52bf07.css",
-    "static/js/main.6418f960.js"
+    "static/css/main.03e7be25.css",
+    "static/js/main.50f8f475.js"
   ]
 }
