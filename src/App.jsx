@@ -5,6 +5,7 @@ import Articles from "./pages/Articles";
 import Teams from "./pages/Teams";
 import Equipo from "./pages/Equipo";
 import Player from "./pages/Player";
+import Entrevistas from "./pages/Entrevistas";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/LegadoQatarFront" element={<Home />} />
           <Route path="/articles" element={<Articles />} />
+          <Route path="/interviews" element={<Entrevistas />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/teams/:team" element={<Equipo />} />
           <Route path="/teams/:team/:playerId" element={<Player />} />
