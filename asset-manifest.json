@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LegadoQatarFront/static/css/main.03e7be25.css",
-    "main.js": "/LegadoQatarFront/static/js/main.50f8f475.js",
+    "main.css": "/LegadoQatarFront/static/css/main.c77f97b3.css",
+    "main.js": "/LegadoQatarFront/static/js/main.a26fd3b7.js",
     "static/media/fifa_final.mp4": "/LegadoQatarFront/static/media/fifa_final.3770b9eb2a017b9a97de.mp4",
     "static/media/ALVARADO-443.webp": "/LegadoQatarFront/static/media/ALVARADO-443.b407cc1d2ee5638bd464.webp",
     "static/media/COURTOIS-520.webp": "/LegadoQatarFront/static/media/COURTOIS-520.ff2f4fc4c25b992cf9fd.webp",
@@ -836,6 +836,8 @@
     "static/media/MADIBO-18.webp": "/LegadoQatarFront/static/media/MADIBO-18.7ce831eec65b4c72f00d.webp",
     "static/media/MIGUEL-4.webp": "/LegadoQatarFront/static/media/MIGUEL-4.b615836c960d5600a5bb.webp",
     "static/media/Senegal.png": "/LegadoQatarFront/static/media/Senegal.7e514475f74c2dbf73ac.png",
+    "static/media/est2.jpeg": "/LegadoQatarFront/static/media/est2.3b014b3fd3abfc028208.jpeg",
+    "static/media/est1.jpeg": "/LegadoQatarFront/static/media/est1.4fb281ab398a9e5e066d.jpeg",
     "static/media/Túnez.png": "/LegadoQatarFront/static/media/Túnez.5b98900275b1d823aa8b.png",
     "static/media/Ecuador.png": "/LegadoQatarFront/static/media/Ecuador.aa495c61d11fca787410.png",
     "static/media/España.png": "/LegadoQatarFront/static/media/España.09111a444172964d7548.png",
@@ -866,11 +868,11 @@
     "static/media/revicons.woff": "/LegadoQatarFront/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/LegadoQatarFront/index.html",
     "static/media/desktop.ini": "/LegadoQatarFront/static/media/desktop.8a9165e24440ddc7cf90.ini",
-    "main.03e7be25.css.map": "/LegadoQatarFront/static/css/main.03e7be25.css.map",
-    "main.50f8f475.js.map": "/LegadoQatarFront/static/js/main.50f8f475.js.map"
+    "main.c77f97b3.css.map": "/LegadoQatarFront/static/css/main.c77f97b3.css.map",
+    "main.a26fd3b7.js.map": "/LegadoQatarFront/static/js/main.a26fd3b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.03e7be25.css",
-    "static/js/main.50f8f475.js"
+    "static/css/main.c77f97b3.css",
+    "static/js/main.a26fd3b7.js"
   ]
 }
