@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LegadoQatarFront/static/css/main.57fea970.css",
-    "main.js": "/LegadoQatarFront/static/js/main.7250c1a6.js",
+    "main.js": "/LegadoQatarFront/static/js/main.66048b81.js",
     "static/media/fifa_final.mp4": "/LegadoQatarFront/static/media/fifa_final.3770b9eb2a017b9a97de.mp4",
     "static/media/ALVARADO-443.webp": "/LegadoQatarFront/static/media/ALVARADO-443.b407cc1d2ee5638bd464.webp",
     "static/media/COURTOIS-520.webp": "/LegadoQatarFront/static/media/COURTOIS-520.ff2f4fc4c25b992cf9fd.webp",
@@ -869,10 +869,10 @@
     "index.html": "/LegadoQatarFront/index.html",
     "static/media/desktop.ini": "/LegadoQatarFront/static/media/desktop.8a9165e24440ddc7cf90.ini",
     "main.57fea970.css.map": "/LegadoQatarFront/static/css/main.57fea970.css.map",
-    "main.7250c1a6.js.map": "/LegadoQatarFront/static/js/main.7250c1a6.js.map"
+    "main.66048b81.js.map": "/LegadoQatarFront/static/js/main.66048b81.js.map"
   },
   "entrypoints": [
     "static/css/main.57fea970.css",
-    "static/js/main.7250c1a6.js"
+    "static/js/main.66048b81.js"
   ]
 }
