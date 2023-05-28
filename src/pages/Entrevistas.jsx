@@ -11,7 +11,7 @@ function Entrevistas() {
             </div>
             <div className='videos'>
             <h2 className='x p'>Luis Fernando Suárez</h2>
-            <p className='description'>Ismael Gómez Schmidt, analista de datos de fútbol, experto en Google Analytics, R Studio. Instructor de la Pizarra del DT</p>
+            <p className='description'>Luis Fernando Suárez: Director técnico de Costa Rica con un amplio recorrido en fútbol a nivel de selecciones, dirigiendo el equipo nacional de Mayores de Ecuador, Honduras y Costa Rica.<br/>Es el técnico colombiano con más victorias en una Copa del Mundo ( 3 triunfos).</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/-J55uWz8uoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
